@@ -1,5 +1,6 @@
-# Ummasking Hidden Cyber Threats
-<img src='images/cover.png' alt='Cover image'>
+
+![project cover](<Cyber Coverv2.png>)
+
 
 ### Navigation
 * [README](https://github.com/SelinaFischer/unmasking_hidden_cyber_threats_t5/blob/main/README.md)
@@ -204,14 +205,15 @@ Both statistical tests confirm that malicious connections tend to be shorter. Bo
 This project followed a structured, collaborative 4-day plan to investigate hidden patterns in network traffic data and build an interactive dashboard that supports cybersecurity insights. Below is a summary of our approach, data management process, and methodology choices.
 
 
+
 ## High-Level Steps
 
-| **Day**   | **Focus Area**                         | **Key Activities**                                                                                                                                       | **Owner(s)**                          |
-|-----------|----------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------|
-| Day 1     | Problem Framing & Data Prep            | - Defined project objectives and key hypotheses <br> - Assigned team roles <br> - Reviewed and cleaned train/test datasets <br> - Performed initial exploratory data analysis (EDA) and profiling <br> - Set up GitHub repo and Kanban board | Member 1 (Project Management, Repo Setup) <br> Member 2 (ETL, EDA) |
-| Day 2     | Analysis & Hypothesis Testing          | - Conducted descriptive statistics <br> - Ran statistical tests (Mann-Whitney U, Chi-square, and T-test) <br> - Explored patterns in service types, durations, and feature distributions <br> - Initiated Tableau dashboard layout and visual planning | Member 2 (Stats, Visual Exploration, Dashboard Wireframes) <br> Member 1 (Documentation, Coordination) |
-| Day 3     | Predictive Modelling & Dashboard Build | - Built a binary classification model to detect anomalies <br> - Evaluated model using accuracy, precision, recall, and ROC metrics <br> - Implemented Tableau dashboard with filters and interactivity <br> - Summarised findings and insights | Member 2 (Modelling, Dashboard Build) <br> Member 1 (Documentation, QA) |
-| Day 4     | Final Touch & Presentation             | - Polished dashboard visuals and added KPI cards <br> - Drafted business recommendations <br> - Prepared and rehearsed final presentation <br> - Completed README and mapped learning outcomes | Member 1 & Member 2 (Joint effort) |
+| **Day** | **Focus Area**                         | **Key Activities**                                                                                                                                                 |
+|---------|----------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Day 1   | Problem Framing & Data Prep            | - Defined project objectives and key hypotheses<br>- Assigned team roles<br>- Reviewed & cleaned train/test datasets<br>- Performed initial EDA & profiling<br>- Set up GitHub repo & Kanban board |
+| Day 2   | Analysis & Hypothesis Testing          | - Conducted descriptive statistics<br>- Ran Mann‑Whitney U, Chi‑square & t‑tests<br>- Explored patterns in service types, durations & feature distributions<br>- Drafted Streamlit dashboard wireframes |
+| Day 3   | Predictive Modelling & Dashboard Build | - Built binary classification model to detect anomalies<br>- Evaluated accuracy & precision<br>- Developed interactive Streamlit dashboard<br>- Summarised key findings & insights |
+| Day 4   | Final Touch & Presentation             | - Rehearsed final presentation                                                                                                                                    |
 
 
 <br>
@@ -481,21 +483,19 @@ This bootcamp has not only equipped us with new tools and techniques, it has bui
 
 
 ## Dashboard Design
-* List all dashboard pages and their content, either blocks of information or widgets, like buttons, checkboxes, images, or any other item that your dashboard library supports.
-* Later, during the project development, you may revisit your dashboard plan to update a given feature (for example, at the beginning of the project you were confident you would use a given plot to display an insight but subsequently you used another plot type).
-* How were data insights communicated to technical and non-technical audiences?
-* Explain how the dashboard was designed to communicate complex data insights to different audiences. 
+
+We independently prototyped our ideas and designs, walked through each other’s work to provide feedback, and then merged two Streamlit apps into a single, cohesive dashboard with tabs for Project Overview, KPIs, Visualizations, Statistical Tests, Predictive Model and Glossary. The dashboard features interactive Plotly and Seaborn/Matplotlib charts, customizable sidebar filters, high‑level metric cards and plain language summaries for non‑technical users, and detailed tables and code snippets for technical audiences.
+
 
 
 ## Development Roadmap
-* What challenges did you face, and what strategies were used to overcome these challenges?
-* What new skills or tools do you plan to learn next based on your project experience? 
+As two contributors handling what would be a four‑person workload, we condensed our scope to deliver core features quickly. Our feedback sessions identified UX and code‑architecture refinements that we were unable to implement in time. In future work we will address those refinements and incorporate further enhancements based on user feedback.
 
 
 ## Deployment
 #### Streamlit 
 
-* The App live link is: https://YOUR_APP_NAME.herokuapp.com/ 
+* Streamlit Dashboard live link is: https://cyberninjas.streamlit.app/ 
 * The project was deployed to Streamlit Community Cloud using the following steps.
 
 1. Log in to Streamlit Community Cloud and create an App
@@ -511,7 +511,7 @@ This bootcamp has not only equipped us with new tools and techniques, it has bui
 
 Explore the interactive Unmasking Hidden Cyber Threats dashboard here:
 
-< link >
+https://cyberninjas.streamlit.app/ 
 
 
 ---
